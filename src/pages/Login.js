@@ -70,6 +70,7 @@ function Login() {
                 <input className='reset-pass' type='email' name='reset-email' value={resetEmail} id='reset-email' placeholder='Your Mail' onChange={(e) => setResetEmail(e.target.value) }/>
                 <button className='reset-btn'>Reset Password</button>
             </form>
+            
         </div>
         </div>
         
